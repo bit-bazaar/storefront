@@ -12,89 +12,26 @@
     "navbar": {
         "name": "navbar",
         "scope": "",
-        "version": "",
+        "version": "9c1b0137c1f9a05d33cc1868c464332ca4a2ed09",
         "defaultScope": "bit-bazaar.storefront",
         "mainFile": "index.ts",
-        "rootDir": "storefront/navbar",
-        "config": {
-            "bitdev.react/react-env@2.0.9": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            },
-            "teambit.dependencies/dependency-resolver": {
-                "policy": {
-                    "dependencies": {
-                        "@emotion/babel-plugin": "11.11.0"
-                    }
-                }
-            },
-            "teambit.component/dev-files": {},
-            "teambit.harmony/application": {},
-            "teambit.semantics/schema": {},
-            "teambit.preview/preview": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "name": "storefront",
-                    "scope": "bit-bazaar.storefront"
-                }
-            }
-        }
+        "rootDir": "storefront/navbar"
     },
     "shell": {
         "name": "shell",
         "scope": "",
-        "version": "",
+        "version": "6f3c90d6153f0887f12dc196b43076f4c3e7dbad",
         "defaultScope": "bit-bazaar.storefront",
         "mainFile": "index.ts",
-        "rootDir": "storefront/shell",
-        "config": {
-            "bitdev.react/react-env@2.0.9": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            },
-            "teambit.dependencies/dependency-resolver": {
-                "policy": {
-                    "dependencies": {
-                        "@emotion/babel-plugin": "11.11.0"
-                    }
-                }
-            },
-            "teambit.component/dev-files": {},
-            "teambit.harmony/application": {},
-            "teambit.semantics/schema": {},
-            "teambit.preview/preview": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "name": "storefront",
-                    "scope": "bit-bazaar.storefront"
-                }
-            }
-        }
+        "rootDir": "storefront/shell"
     },
     "storefront": {
         "name": "storefront",
         "scope": "",
-        "version": "",
+        "version": "b7c9a5b17c1555e5895c67e5b20a8bdacc918054",
         "defaultScope": "bit-bazaar.storefront",
         "mainFile": "index.ts",
-        "rootDir": "storefront/storefront",
-        "config": {
-            "bitdev.react/react-env@2.0.9": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            },
-            "teambit.dependencies/dependency-resolver": {
-                "policy": {
-                    "dependencies": {
-                        "@emotion/babel-plugin": "11.11.0"
-                    }
-                }
-            }
-        }
+        "rootDir": "storefront/storefront"
     },
     "$schema-version": "17.0.0"
 }

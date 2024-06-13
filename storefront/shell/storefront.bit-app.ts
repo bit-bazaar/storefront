@@ -4,7 +4,7 @@ import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 
 export default ViteReact.from({
-  name: 'storefront',
+  name: 'shell',
   ssr: false,
   viteConfigPath: require.resolve('./vite.config.js'),
 });

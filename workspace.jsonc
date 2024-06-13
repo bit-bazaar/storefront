@@ -65,6 +65,7 @@
         "@mui/material": "5.15.20",
         "@mui/styled-engine": "^5.15.14",
         "@mui/styles": "5.15.20",
+        "@teambit/cloud-providers.deployers.netlify": "^0.1.26",
         "@vitejs/plugin-react": "^4.3.1",
         "vite": "^5.2.13"
       },

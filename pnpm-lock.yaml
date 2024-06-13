@@ -50,6 +50,9 @@ importers:
       '@mui/styles':
         specifier: 5.15.20
         version: 5.15.20(@types/react@18.2.23)(react@18.3.1)
+      '@teambit/cloud-providers.deployers.netlify':
+        specifier: ^0.1.26
+        version: 0.1.26(react@18.3.1)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.3.1)
@@ -141,14 +144,20 @@ importers:
         specifier: ^5.88.2
         version: 5.91.0
 
-  node_modules/.bit_roots/bit-bazaar.storefront_storefront:
+  node_modules/.bit_roots/bit-bazaar.storefront_navbar:
     dependencies:
       '@apollo/client':
         specifier: ^3.8.8
         version: 3.10.4(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@bit-bazaar/storefront.navbar':
+        specifier: workspace:*
+        version: file:storefront/navbar(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.31.1)(typescript@5.4.5)
+      '@bit-bazaar/storefront.shell':
+        specifier: workspace:*
+        version: file:storefront/shell(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)
       '@bit-bazaar/storefront.storefront':
         specifier: workspace:*
-        version: file:storefront/storefront(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react@18.3.1))(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)
+        version: file:storefront/storefront(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)
       '@bitdev/react.app-types.vite-react':
         specifier: ^2.0.1
         version: 2.0.1(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
@@ -161,15 +170,268 @@ importers:
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.3.1)
-      '@mui/icons-material':
-        specifier: 5.15.20
-        version: 5.15.20(@mui/material@5.15.20(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.2.23)(react@18.3.1)
-      '@mui/material':
-        specifier: 5.15.20
-        version: 5.15.20(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@mui/styles':
-        specifier: 5.15.20
-        version: 5.15.20(@types/react@18.2.23)(react@18.3.1)
+      '@teambit/cloud-providers.deployers.netlify':
+        specifier: ^0.1.26
+        version: 0.1.26(react@18.3.1)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.3.1)
+      '@testing-library/jest-dom':
+        specifier: 6.4.2
+        version: 6.4.2(@jest/globals@29.7.0)(@types/jest@29.5.12)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@testing-library/react':
+        specifier: ^14.2.1
+        version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/node':
+        specifier: 20.12.10
+        version: 20.12.10
+      '@types/react':
+        specifier: 18.2.23
+        version: 18.2.23
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.3.0
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
+        version: 5.14.9
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.5)
+      '@vitejs/plugin-react':
+        specifier: ^4.3.1
+        version: 4.3.1(vite@5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@vitest/coverage-v8':
+        specifier: ^1.6.0
+        version: 1.6.0(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      browserslist:
+        specifier: 4.23.0
+        version: 4.23.0
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(typescript@5.4.5)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      jsdom:
+        specifier: ^24.0.0
+        version: 24.1.0
+      pino-pretty:
+        specifier: 4.5.0
+        version: 4.5.0
+      react:
+        specifier: ^18.0.0
+        version: 18.3.1
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.3.1(react@18.3.1)
+      react-router-dom:
+        specifier: ^6.16.0
+        version: 6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      sass:
+        specifier: ^1.69.5
+        version: 1.77.4
+      vite:
+        specifier: ^5.2.13
+        version: 5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      vitest:
+        specifier: ^1.6.0
+        version: 1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      webpack:
+        specifier: ^5.88.2
+        version: 5.91.0
+    devDependencies:
+      '@bitdev/react.react-env':
+        specifier: ^2.0.3
+        version: 2.0.9(@babel/core@7.24.7)(@babel/traverse@7.24.7)(@jest/globals@29.7.0)(babel-plugin-macros@3.1.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(rollup@4.18.0)(terser@5.31.1)(type-fest@3.13.1)(webpack-hot-middleware@2.26.1)
+    dependenciesMeta:
+      '@bit-bazaar/storefront.navbar':
+        injected: true
+      '@bit-bazaar/storefront.shell':
+        injected: true
+      '@bit-bazaar/storefront.storefront':
+        injected: true
+
+  node_modules/.bit_roots/bit-bazaar.storefront_shell:
+    dependencies:
+      '@apollo/client':
+        specifier: ^3.8.8
+        version: 3.10.4(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@bit-bazaar/storefront.navbar':
+        specifier: workspace:*
+        version: file:storefront/navbar(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.31.1)(typescript@5.4.5)
+      '@bit-bazaar/storefront.shell':
+        specifier: workspace:*
+        version: file:storefront/shell(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)
+      '@bit-bazaar/storefront.storefront':
+        specifier: workspace:*
+        version: file:storefront/storefront(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)
+      '@bitdev/react.app-types.vite-react':
+        specifier: ^2.0.1
+        version: 2.0.1(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      '@emotion/babel-plugin':
+        specifier: 11.11.0
+        version: 11.11.0
+      '@mdx-js/mdx':
+        specifier: ^1.6.22
+        version: 1.6.22
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.3.1)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.3.1)
+      '@testing-library/jest-dom':
+        specifier: 6.4.2
+        version: 6.4.2(@jest/globals@29.7.0)(@types/jest@29.5.12)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@testing-library/react':
+        specifier: ^14.2.1
+        version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/node':
+        specifier: 20.12.10
+        version: 20.12.10
+      '@types/react':
+        specifier: 18.2.23
+        version: 18.2.23
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.3.0
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
+        version: 5.14.9
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.5)
+      '@vitejs/plugin-react':
+        specifier: ^4.3.1
+        version: 4.3.1(vite@5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@vitest/coverage-v8':
+        specifier: ^1.6.0
+        version: 1.6.0(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      browserslist:
+        specifier: 4.23.0
+        version: 4.23.0
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(typescript@5.4.5)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      jsdom:
+        specifier: ^24.0.0
+        version: 24.1.0
+      pino-pretty:
+        specifier: 4.5.0
+        version: 4.5.0
+      react:
+        specifier: ^18.0.0
+        version: 18.3.1
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.3.1(react@18.3.1)
+      react-router-dom:
+        specifier: ^6.16.0
+        version: 6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      sass:
+        specifier: ^1.69.5
+        version: 1.77.4
+      vite:
+        specifier: ^5.2.13
+        version: 5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      vitest:
+        specifier: ^1.6.0
+        version: 1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      webpack:
+        specifier: ^5.88.2
+        version: 5.91.0
+    devDependencies:
+      '@bitdev/react.react-env':
+        specifier: ^2.0.3
+        version: 2.0.9(@babel/core@7.24.7)(@babel/traverse@7.24.7)(@jest/globals@29.7.0)(babel-plugin-macros@3.1.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(rollup@4.18.0)(terser@5.31.1)(type-fest@3.13.1)(webpack-hot-middleware@2.26.1)
+    dependenciesMeta:
+      '@bit-bazaar/storefront.navbar':
+        injected: true
+      '@bit-bazaar/storefront.shell':
+        injected: true
+      '@bit-bazaar/storefront.storefront':
+        injected: true
+
+  node_modules/.bit_roots/bit-bazaar.storefront_storefront:
+    dependencies:
+      '@apollo/client':
+        specifier: ^3.8.8
+        version: 3.10.4(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@bit-bazaar/storefront.navbar':
+        specifier: workspace:*
+        version: file:storefront/navbar(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.31.1)(typescript@5.4.5)
+      '@bit-bazaar/storefront.shell':
+        specifier: workspace:*
+        version: file:storefront/shell(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)
+      '@bit-bazaar/storefront.storefront':
+        specifier: workspace:*
+        version: file:storefront/storefront(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)
+      '@bitdev/react.app-types.vite-react':
+        specifier: ^2.0.1
+        version: 2.0.1(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      '@emotion/babel-plugin':
+        specifier: 11.11.0
+        version: 11.11.0
+      '@mdx-js/mdx':
+        specifier: ^1.6.22
+        version: 1.6.22
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.3.1)
+      '@teambit/cloud-providers.deployers.netlify':
+        specifier: ^0.1.26
+        version: 0.1.26(react@18.3.1)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.3.1)
@@ -265,6 +527,10 @@ importers:
         specifier: ^2.0.3
         version: 2.0.3(@babel/core@7.24.7)(@babel/traverse@7.24.7)(@jest/globals@29.7.0)(@types/node@20.12.10)(babel-plugin-macros@3.1.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(rollup@4.18.0)(terser@5.31.1)(type-fest@3.13.1)(webpack-hot-middleware@2.26.1)
     dependenciesMeta:
+      '@bit-bazaar/storefront.navbar':
+        injected: true
+      '@bit-bazaar/storefront.shell':
+        injected: true
       '@bit-bazaar/storefront.storefront':
         injected: true
 
@@ -273,9 +539,15 @@ importers:
       '@apollo/client':
         specifier: ^3.8.8
         version: 3.10.4(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@bit-bazaar/storefront.navbar':
+        specifier: workspace:*
+        version: file:storefront/navbar(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.31.1)(typescript@5.4.5)
+      '@bit-bazaar/storefront.shell':
+        specifier: workspace:*
+        version: file:storefront/shell(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)
       '@bit-bazaar/storefront.storefront':
         specifier: workspace:*
-        version: file:storefront/storefront(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react@18.3.1))(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)
+        version: file:storefront/storefront(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)
       '@bitdev/react.react-env':
         specifier: 2.0.9
         version: 2.0.9(@babel/core@7.24.7)(@babel/traverse@7.24.7)(@jest/globals@29.7.0)(babel-plugin-macros@3.1.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(rollup@4.18.0)(terser@5.31.1)(type-fest@3.13.1)(webpack-hot-middleware@2.26.1)
@@ -370,8 +642,239 @@ importers:
         specifier: ^5.88.2
         version: 5.91.0
     dependenciesMeta:
+      '@bit-bazaar/storefront.navbar':
+        injected: true
+      '@bit-bazaar/storefront.shell':
+        injected: true
       '@bit-bazaar/storefront.storefront':
         injected: true
+
+  storefront/navbar:
+    dependencies:
+      '@apollo/client':
+        specifier: ^3.8.8
+        version: 3.10.4(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@bitdev/react.app-types.vite-react':
+        specifier: ^2.0.1
+        version: 2.0.1(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      '@emotion/babel-plugin':
+        specifier: 11.11.0
+        version: 11.11.0
+      '@mdx-js/mdx':
+        specifier: ^1.6.22
+        version: 1.6.22
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.3.1)
+      '@teambit/cloud-providers.deployers.netlify':
+        specifier: ^0.1.26
+        version: 0.1.26(react@18.3.1)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.3.1)
+      '@testing-library/jest-dom':
+        specifier: 6.4.2
+        version: 6.4.2(@jest/globals@29.7.0)(@types/jest@29.5.12)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@testing-library/react':
+        specifier: ^14.2.1
+        version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/node':
+        specifier: 20.12.10
+        version: 20.12.10
+      '@types/react':
+        specifier: 18.2.23
+        version: 18.2.23
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.3.0
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
+        version: 5.14.9
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.5)
+      '@vitejs/plugin-react':
+        specifier: ^4.3.1
+        version: 4.3.1(vite@5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@vitest/coverage-v8':
+        specifier: ^1.6.0
+        version: 1.6.0(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      browserslist:
+        specifier: 4.23.0
+        version: 4.23.0
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(typescript@5.4.5)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      jsdom:
+        specifier: ^24.0.0
+        version: 24.1.0
+      pino-pretty:
+        specifier: 4.5.0
+        version: 4.5.0
+      react:
+        specifier: ^18.0.0
+        version: 18.3.1
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.3.1(react@18.3.1)
+      react-router-dom:
+        specifier: ^6.16.0
+        version: 6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      sass:
+        specifier: ^1.69.5
+        version: 1.77.4
+      vite:
+        specifier: ^5.2.13
+        version: 5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      vitest:
+        specifier: ^1.6.0
+        version: 1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      webpack:
+        specifier: ^5.88.2
+        version: 5.91.0
+    devDependencies:
+      '@bitdev/react.react-env':
+        specifier: ^2.0.3
+        version: 2.0.9(@babel/core@7.24.7)(@babel/traverse@7.24.7)(@jest/globals@29.7.0)(babel-plugin-macros@3.1.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(rollup@4.18.0)(terser@5.31.1)(type-fest@3.13.1)(webpack-hot-middleware@2.26.1)
+
+  storefront/shell:
+    dependencies:
+      '@apollo/client':
+        specifier: ^3.8.8
+        version: 3.10.4(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@bitdev/react.app-types.vite-react':
+        specifier: ^2.0.1
+        version: 2.0.1(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      '@emotion/babel-plugin':
+        specifier: 11.11.0
+        version: 11.11.0
+      '@mdx-js/mdx':
+        specifier: ^1.6.22
+        version: 1.6.22
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.3.1)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.3.1)
+      '@testing-library/jest-dom':
+        specifier: 6.4.2
+        version: 6.4.2(@jest/globals@29.7.0)(@types/jest@29.5.12)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@testing-library/react':
+        specifier: ^14.2.1
+        version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/node':
+        specifier: 20.12.10
+        version: 20.12.10
+      '@types/react':
+        specifier: 18.2.23
+        version: 18.2.23
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.3.0
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
+        version: 5.14.9
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.5)
+      '@vitejs/plugin-react':
+        specifier: ^4.3.1
+        version: 4.3.1(vite@5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@vitest/coverage-v8':
+        specifier: ^1.6.0
+        version: 1.6.0(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      browserslist:
+        specifier: 4.23.0
+        version: 4.23.0
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(typescript@5.4.5)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      jsdom:
+        specifier: ^24.0.0
+        version: 24.1.0
+      pino-pretty:
+        specifier: 4.5.0
+        version: 4.5.0
+      react:
+        specifier: ^18.0.0
+        version: 18.3.1
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.3.1(react@18.3.1)
+      react-router-dom:
+        specifier: ^6.16.0
+        version: 6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      sass:
+        specifier: ^1.69.5
+        version: 1.77.4
+      vite:
+        specifier: ^5.2.13
+        version: 5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      vitest:
+        specifier: ^1.6.0
+        version: 1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      webpack:
+        specifier: ^5.88.2
+        version: 5.91.0
+    devDependencies:
+      '@bitdev/react.react-env':
+        specifier: ^2.0.3
+        version: 2.0.9(@babel/core@7.24.7)(@babel/traverse@7.24.7)(@jest/globals@29.7.0)(babel-plugin-macros@3.1.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(rollup@4.18.0)(terser@5.31.1)(type-fest@3.13.1)(webpack-hot-middleware@2.26.1)
 
   storefront/storefront:
     dependencies:
@@ -390,15 +893,9 @@ importers:
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.3.1)
-      '@mui/icons-material':
-        specifier: 5.15.20
-        version: 5.15.20(@mui/material@5.15.20(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.2.23)(react@18.3.1)
-      '@mui/material':
-        specifier: 5.15.20
-        version: 5.15.20(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@mui/styles':
-        specifier: 5.15.20
-        version: 5.15.20(@types/react@18.2.23)(react@18.3.1)
+      '@teambit/cloud-providers.deployers.netlify':
+        specifier: ^0.1.26
+        version: 0.1.26(react@18.3.1)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.3.1)
@@ -1351,6 +1848,19 @@ packages:
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
+
+  '@bit-bazaar/storefront.navbar@file:storefront/navbar':
+    resolution: {directory: storefront/navbar, type: directory}
+    peerDependencies:
+      react-dom: ^17.0.0 || ^18.0.0
+      react-router-dom: ^6.16.0
+
+  '@bit-bazaar/storefront.shell@file:storefront/shell':
+    resolution: {directory: storefront/shell, type: directory}
+    peerDependencies:
+      react: ^17.0.0 || ^18.0.0
+      react-dom: ^17.0.0 || ^18.0.0
+      react-router-dom: ^6.16.0
 
   '@bit-bazaar/storefront.storefront@file:storefront/storefront':
     resolution: {directory: storefront/storefront, type: directory}
@@ -2933,6 +3443,14 @@ packages:
     resolution: {integrity: sha512-lGK6sZBk28H+MPuqIQp5+JRGw5xuE8MUTNoMQtWyda4/u6drNMgk4eYG1HWVcqbuJbGzrtfEDroDRx4ghBiUOQ==}
     engines: {node: '>=12.22.0'}
 
+  '@teambit/cloud-providers.clients.netlify@0.0.11':
+    resolution: {integrity: sha512-FncJ9bixkvxHMJIl2pU40+vCQba1XzwvxKMsjahEFOGRRguGALVCAp0VwS/bCV8kdbPqQy+dgQdTQFJGTzG1iw==}
+
+  '@teambit/cloud-providers.deployers.netlify@0.1.26':
+    resolution: {integrity: sha512-FBP+uNTIqr926p/5FQe67MBbeP3/fyc+jt9AX2DomALMXpFcMWzVhD3b6bJbZdmGTmO6KNX7df1ckuoGlaRBMw==}
+    peerDependencies:
+      react: ^17.0.0 || ^18.0.0
+
   '@teambit/community.ui.content-tabs@1.0.2':
     resolution: {integrity: sha512-gCfyxLGLrvVjGRyrf7Su5Uld4UuLQRMCGtuLWGZFCguB8oTM0wCXMHY1ogfMkc93AmLKIzIxDLe6Z+Oj06NcUw==}
     peerDependencies:
@@ -4256,6 +4774,18 @@ packages:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
 
+  archiver-utils@2.1.0:
+    resolution: {integrity: sha512-bEL/yUb/fNNiNTuUz979Z0Yg5L+LzLxGJz8x79lYmR54fmTIb6ob/hNQgkQnIUDWIFjZVQwl9Xs356I6BAMHfw==}
+    engines: {node: '>= 6'}
+
+  archiver-utils@3.0.4:
+    resolution: {integrity: sha512-KVgf4XQVrTjhyWmx6cte4RxonPLR9onExufI1jhvw/MQ4BB6IsZD5gT8Lq+u/+pRkWna/6JoHpiQioaqFP5Rzw==}
+    engines: {node: '>= 10'}
+
+  archiver@5.3.2:
+    resolution: {integrity: sha512-+25nxyyznAXF7Nef3y0EbBeqmGZgeN/BxHX29Rs39djAfaFalmQ89SE6CWyDCHzGL0yt/ycBtNOmGTW0FyGWNw==}
+    engines: {node: '>= 10'}
+
   argparse@1.0.10:
     resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
 
@@ -4349,6 +4879,9 @@ packages:
     resolution: {integrity: sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==}
     hasBin: true
 
+  async@3.2.5:
+    resolution: {integrity: sha512-baNZyqaaLhyLVKm/DlvdW051MSgO6b8eVfIezl9E5PqWxFgzLm/wQntEW4zOytVburDEr0JlALEpdOFwvErLsg==}
+
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
@@ -4375,6 +4908,9 @@ packages:
   axe-core@4.7.0:
     resolution: {integrity: sha512-M0JtH+hlOL5pLQwHOLNYZaXuhqmvS8oExsqB1SBYgA4Dk7u/xx+YdGHXaK5pyUfed5mYXdlYiphWq3G8cRi5JQ==}
     engines: {node: '>=4'}
+
+  axios@1.3.2:
+    resolution: {integrity: sha512-1M3O703bYqYuPhbHeya5bnhpYVsDDRyQSabNja04mZtboLNSuZ4YrltestrLXfHgmzua4TpUqRiVKbiQuo2epw==}
 
   axobject-query@3.2.1:
     resolution: {integrity: sha512-jsyHu61e6N4Vbz/v18DHwWYKK0bSWLqn47eeDSKPB7m8tqMHF9YJ+mhIk2lVteyZrY8tnSj/jHOv4YiTCuCJgg==}
@@ -4524,6 +5060,9 @@ packages:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
 
+  bl@4.1.0:
+    resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
+
   bn.js@4.12.0:
     resolution: {integrity: sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==}
 
@@ -4594,11 +5133,17 @@ packages:
   bser@2.1.1:
     resolution: {integrity: sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==}
 
+  buffer-crc32@0.2.13:
+    resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
+
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
   buffer-xor@1.0.3:
     resolution: {integrity: sha512-571s0T7nZWK6vB67HI5dyUF7wXiNcfaPPPTl6zYCNApANjIvYJTg7hlud/+cJpdAhS7dVzqMLmfhfHR3rAcOjQ==}
+
+  buffer@5.7.1:
+    resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
 
   buffer@6.0.3:
     resolution: {integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==}
@@ -4841,6 +5386,10 @@ packages:
   component-emitter@1.3.1:
     resolution: {integrity: sha512-T0+barUSQRTUQASh8bx02dl+DhF54GtIDY13Y3m9oWTklKbb3Wv974meRpeZ3lp1JpLVECWWNHC4vaG2XHXouQ==}
 
+  compress-commons@4.1.2:
+    resolution: {integrity: sha512-D3uMHtGc/fcO1Gt1/L7i1e33VOvD4A9hfQLP+6ewd+BvG/gQ84Yh4oftEhAdjSMgBgwGL+jsppT7JYNpo6MHHg==}
+    engines: {node: '>= 10'}
+
   compressible@2.0.18:
     resolution: {integrity: sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==}
     engines: {node: '>= 0.6'}
@@ -4935,6 +5484,15 @@ packages:
     peerDependenciesMeta:
       typescript:
         optional: true
+
+  crc-32@1.2.2:
+    resolution: {integrity: sha512-ROmzCKrTnOwybPcJApAA6WBWij23HVfGVNKqqrZpuyZOHqK2CwHSvpGuyt/UNNvaIjEd8X5IFGp4Mh+Ie1IHJQ==}
+    engines: {node: '>=0.8'}
+    hasBin: true
+
+  crc32-stream@4.0.3:
+    resolution: {integrity: sha512-NT7w2JVU7DFroFdYkeq8cywxrgjPHWkdX1wjpRQXPX5Asews3tA+Ght6lddQO5Mkumffp3X7GEqku3epj2toIw==}
+    engines: {node: '>= 10'}
 
   create-ecdh@4.0.4:
     resolution: {integrity: sha512-mf+TCx8wWc9VpuxfP2ht0iSISLZnt0JgWlrOKZiNqyUZWnjIaCIVNQArMHnCZKfEYRg6IM7A+NeJoN8gf/Ws0A==}
@@ -6101,6 +6659,9 @@ packages:
     resolution: {integrity: sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q==}
     engines: {node: '>= 0.6'}
 
+  fs-constants@1.0.0:
+    resolution: {integrity: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==}
+
   fs-extra@10.0.0:
     resolution: {integrity: sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==}
     engines: {node: '>=12'}
@@ -7194,6 +7755,10 @@ packages:
   launch-editor@2.6.1:
     resolution: {integrity: sha512-eB/uXmFVpY4zezmGp5XtU21kwo7GBbKB+EQ+UZeWtGb9yAM5xt/Evk+lYH3eRNAtId+ej4u7TYPFZ07w4s7rRw==}
 
+  lazystream@1.0.1:
+    resolution: {integrity: sha512-b94GiNHQNy6JNTrt5w6zNyffMrNkXZb3KTkCZJb2V1xaEGCk093vkZ2jk3tpaeP33/OiXC+WvK9AxUebnf5nbw==}
+    engines: {node: '>= 0.6.3'}
+
   less-loader@11.1.0:
     resolution: {integrity: sha512-C+uDBV7kS7W5fJlUjq5mPBeBVhYpTIm5gB09APT9o3n/ILeaXVsiSFTbZpTJCJwQ/Crczfn3DmfQFwxYusWFug==}
     engines: {node: '>= 14.15.0'}
@@ -7340,17 +7905,32 @@ packages:
   lodash.debounce@4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
 
+  lodash.defaults@4.2.0:
+    resolution: {integrity: sha512-qjxPLHd3r5DnsdGacqOMU6pb/avJzdh9tFX2ymgoZE27BmjXrNy/y4LoaiTeAb+O3gL8AfpJGtqfX/ae2leYYQ==}
+
+  lodash.difference@4.5.0:
+    resolution: {integrity: sha512-dS2j+W26TQ7taQBGN8Lbbq04ssV3emRw4NY58WErlTO29pIqS0HmoT5aJ9+TUQ1N3G+JOZSji4eugsWwGp9yPA==}
+
+  lodash.flatten@4.4.0:
+    resolution: {integrity: sha512-C5N2Z3DgnnKr0LOpv/hKCgKdb7ZZwafIrsesve6lmzvZIRZRGaZ/l6Q8+2W7NaT+ZwO3fFlSCzCzrDCFdJfZ4g==}
+
   lodash.get@4.4.2:
     resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
 
   lodash.has@4.5.2:
     resolution: {integrity: sha512-rnYUdIo6xRCJnQmbVFEwcxF144erlD+M3YcJUVesflU9paQaE8p+fJDcIQrlMYbxoANFL+AB9hZrzSBBk5PL+g==}
 
+  lodash.isplainobject@4.0.6:
+    resolution: {integrity: sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==}
+
   lodash.memoize@4.1.2:
     resolution: {integrity: sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==}
 
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
+
+  lodash.union@4.6.0:
+    resolution: {integrity: sha512-c4pB2CdGrGdjMKYLA+XiRDO7Y0PRQbm/Gzg8qMj+QH+pFVAoTp5sBpO0odL3FjoPCGjK96p6qsP+yQoiLoOBcw==}
 
   lodash.uniq@4.5.0:
     resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
@@ -8696,6 +9276,9 @@ packages:
     resolution: {integrity: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==}
     engines: {node: '>= 0.10'}
 
+  proxy-from-env@1.1.0:
+    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
+
   prr@1.0.1:
     resolution: {integrity: sha512-yPw4Sng1gWghHQWj0B3ZggWUm4qVbPwPFcRG8KyxiU7J2OHFSoEHKS+EZ3fv5l1t9CyCiop6l/ZYeWbrgoQejw==}
 
@@ -8882,6 +9465,9 @@ packages:
   readable-stream@3.6.2:
     resolution: {integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==}
     engines: {node: '>= 6'}
+
+  readdir-glob@1.1.3:
+    resolution: {integrity: sha512-v05I2k7xN8zXvPD9N+z/uhXPaj0sUFCe2rcWZIpBsqxfP7xXFQ0tipAd/wjj1YxWyWtUS5IDJpOG82JKt2EAVA==}
 
   readdirp@3.6.0:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
@@ -9605,6 +10191,10 @@ packages:
 
   tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
+    engines: {node: '>=6'}
+
+  tar-stream@2.2.0:
+    resolution: {integrity: sha512-ujeqbceABgwMZxEJnk2HDY2DlnUZ+9oEcb1KzTVfYHio0UE6dG71n60d8D2I4qNvleWrrXpmjpt7vZeF1LnMZQ==}
     engines: {node: '>=6'}
 
   tcp-port-used@1.0.2:
@@ -10434,6 +11024,10 @@ packages:
 
   zen-observable@0.8.15:
     resolution: {integrity: sha512-PQ2PC7R9rslx84ndNBZB/Dkv8V8fZEpk83RLgXtYd0fwUgEjseMn1Dgajh2x6S8QbZAFa9p2qVCEuYZNgve0dQ==}
+
+  zip-stream@4.1.1:
+    resolution: {integrity: sha512-9qv4rlDiopXg4E69k+vMHjNN63YFMe9sZMrdlvKnCjlCRWeCBswPPMPUfx+ipsAWq1LXHe70RcbaHdJJpS6hyQ==}
+    engines: {node: '>= 10'}
 
   zwitch@1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
@@ -12415,16 +13009,14 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@bit-bazaar/storefront.storefront@file:storefront/storefront(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react@18.3.1))(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)':
+  '@bit-bazaar/storefront.navbar@file:storefront/navbar(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.31.1)(typescript@5.4.5)':
     dependencies:
       '@apollo/client': 3.10.4(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@bitdev/react.app-types.vite-react': 2.0.1(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
       '@emotion/babel-plugin': 11.11.0
       '@mdx-js/mdx': 1.6.22
       '@mdx-js/react': 1.6.22(react@18.3.1)
-      '@mui/icons-material': 5.15.20(@mui/material@5.15.20(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.2.23)(react@18.3.1)
-      '@mui/material': 5.15.20(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react@18.3.1))(@types/react@18.2.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@mui/styles': 5.15.20(@types/react@18.2.23)(react@18.3.1)
+      '@teambit/cloud-providers.deployers.netlify': 0.1.26(react@18.3.1)
       '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.3.1)
       '@testing-library/jest-dom': 6.4.2(@jest/globals@29.7.0)(@types/jest@29.5.12)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
       '@testing-library/react': 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -12457,8 +13049,6 @@ snapshots:
       webpack: 5.91.0
     transitivePeerDependencies:
       - '@edge-runtime/vm'
-      - '@emotion/react'
-      - '@emotion/styled'
       - '@jest/globals'
       - '@swc/core'
       - '@types/bun'
@@ -12466,6 +13056,140 @@ snapshots:
       - '@vitest/ui'
       - bufferutil
       - canvas
+      - debug
+      - esbuild
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - graphql-ws
+      - happy-dom
+      - jest
+      - less
+      - lightningcss
+      - stylus
+      - subscriptions-transport-ws
+      - sugarss
+      - supports-color
+      - terser
+      - typescript
+      - uglify-js
+      - utf-8-validate
+      - webpack-cli
+
+  '@bit-bazaar/storefront.shell@file:storefront/shell(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)':
+    dependencies:
+      '@apollo/client': 3.10.4(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@bit-bazaar/storefront.navbar': file:storefront/navbar(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.31.1)(typescript@5.4.5)
+      '@bit-bazaar/storefront.storefront': file:storefront/storefront(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)
+      '@bitdev/react.app-types.vite-react': 2.0.1(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      '@emotion/babel-plugin': 11.11.0
+      '@mdx-js/mdx': 1.6.22
+      '@mdx-js/react': 1.6.22(react@18.3.1)
+      '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.3.1)
+      '@testing-library/jest-dom': 6.4.2(@jest/globals@29.7.0)(@types/jest@29.5.12)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@testing-library/react': 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/jest': 29.5.12
+      '@types/node': 20.12.10
+      '@types/react': 18.2.23
+      '@types/react-dom': 18.3.0
+      '@types/testing-library__jest-dom': 5.14.9
+      '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.5)
+      '@vitejs/plugin-react': 4.3.1(vite@5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@vitest/coverage-v8': 1.6.0(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      browserslist: 4.23.0
+      eslint: 8.56.0
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)
+      eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(typescript@5.4.5)
+      eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
+      graphql: 16.8.1
+      jsdom: 24.1.0
+      pino-pretty: 4.5.0
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-router-dom: 6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      sass: 1.77.4
+      vite: 5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      vitest: 1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      webpack: 5.91.0
+    transitivePeerDependencies:
+      - '@edge-runtime/vm'
+      - '@jest/globals'
+      - '@swc/core'
+      - '@types/bun'
+      - '@vitest/browser'
+      - '@vitest/ui'
+      - bufferutil
+      - canvas
+      - debug
+      - esbuild
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - graphql-ws
+      - happy-dom
+      - jest
+      - less
+      - lightningcss
+      - stylus
+      - subscriptions-transport-ws
+      - sugarss
+      - supports-color
+      - terser
+      - typescript
+      - uglify-js
+      - utf-8-validate
+      - webpack-cli
+
+  '@bit-bazaar/storefront.storefront@file:storefront/storefront(@jest/globals@29.7.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(lightningcss@1.25.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(terser@5.31.1)(typescript@5.4.5)':
+    dependencies:
+      '@apollo/client': 3.10.4(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@bitdev/react.app-types.vite-react': 2.0.1(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      '@emotion/babel-plugin': 11.11.0
+      '@mdx-js/mdx': 1.6.22
+      '@mdx-js/react': 1.6.22(react@18.3.1)
+      '@teambit/cloud-providers.deployers.netlify': 0.1.26(react@18.3.1)
+      '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.3.1)
+      '@testing-library/jest-dom': 6.4.2(@jest/globals@29.7.0)(@types/jest@29.5.12)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@testing-library/react': 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/jest': 29.5.12
+      '@types/node': 20.12.10
+      '@types/react': 18.2.23
+      '@types/react-dom': 18.3.0
+      '@types/testing-library__jest-dom': 5.14.9
+      '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.5)
+      '@vitejs/plugin-react': 4.3.1(vite@5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      '@vitest/coverage-v8': 1.6.0(vitest@1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1))
+      browserslist: 4.23.0
+      eslint: 8.56.0
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)
+      eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1(@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(jest@29.3.1(@types/node@20.12.10)(babel-plugin-macros@3.1.0))(typescript@5.4.5)
+      eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
+      graphql: 16.8.1
+      jsdom: 24.1.0
+      pino-pretty: 4.5.0
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-router-dom: 6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      sass: 1.77.4
+      vite: 5.2.13(@types/node@20.12.10)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      vitest: 1.6.0(@types/node@20.12.10)(jsdom@24.1.0)(lightningcss@1.25.1)(sass@1.77.4)(terser@5.31.1)
+      webpack: 5.91.0
+    transitivePeerDependencies:
+      - '@edge-runtime/vm'
+      - '@jest/globals'
+      - '@swc/core'
+      - '@types/bun'
+      - '@vitest/browser'
+      - '@vitest/ui'
+      - bufferutil
+      - canvas
+      - debug
       - esbuild
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -14514,6 +15238,20 @@ snapshots:
   '@teambit/bit-error@0.0.402': {}
 
   '@teambit/bit-error@0.0.404': {}
+
+  '@teambit/cloud-providers.clients.netlify@0.0.11':
+    dependencies:
+      archiver: 5.3.2
+      axios: 1.3.2
+    transitivePeerDependencies:
+      - debug
+
+  '@teambit/cloud-providers.deployers.netlify@0.1.26(react@18.3.1)':
+    dependencies:
+      '@teambit/cloud-providers.clients.netlify': 0.0.11
+      react: 18.3.1
+    transitivePeerDependencies:
+      - debug
 
   '@teambit/community.ui.content-tabs@1.0.2(react-dom@18.3.1(react@18.3.1))(react@18.2.0)':
     dependencies:
@@ -17001,6 +17739,42 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
+  archiver-utils@2.1.0:
+    dependencies:
+      glob: 7.2.3
+      graceful-fs: 4.2.11
+      lazystream: 1.0.1
+      lodash.defaults: 4.2.0
+      lodash.difference: 4.5.0
+      lodash.flatten: 4.4.0
+      lodash.isplainobject: 4.0.6
+      lodash.union: 4.6.0
+      normalize-path: 3.0.0
+      readable-stream: 2.3.8
+
+  archiver-utils@3.0.4:
+    dependencies:
+      glob: 7.2.3
+      graceful-fs: 4.2.11
+      lazystream: 1.0.1
+      lodash.defaults: 4.2.0
+      lodash.difference: 4.5.0
+      lodash.flatten: 4.4.0
+      lodash.isplainobject: 4.0.6
+      lodash.union: 4.6.0
+      normalize-path: 3.0.0
+      readable-stream: 3.6.2
+
+  archiver@5.3.2:
+    dependencies:
+      archiver-utils: 2.1.0
+      async: 3.2.5
+      buffer-crc32: 0.2.13
+      readable-stream: 3.6.2
+      readdir-glob: 1.1.3
+      tar-stream: 2.2.0
+      zip-stream: 4.1.1
+
   argparse@1.0.10:
     dependencies:
       sprintf-js: 1.0.3
@@ -17115,6 +17889,8 @@ snapshots:
 
   astring@1.8.6: {}
 
+  async@3.2.5: {}
+
   asynckit@0.4.0: {}
 
   at-least-node@1.0.0: {}
@@ -17136,6 +17912,14 @@ snapshots:
       possible-typed-array-names: 1.0.0
 
   axe-core@4.7.0: {}
+
+  axios@1.3.2:
+    dependencies:
+      follow-redirects: 1.15.6
+      form-data: 4.0.0
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
 
   axobject-query@3.2.1:
     dependencies:
@@ -17402,6 +18186,12 @@ snapshots:
 
   binary-extensions@2.3.0: {}
 
+  bl@4.1.0:
+    dependencies:
+      buffer: 5.7.1
+      inherits: 2.0.4
+      readable-stream: 3.6.2
+
   bn.js@4.12.0: {}
 
   bn.js@5.2.1: {}
@@ -17529,9 +18319,16 @@ snapshots:
     dependencies:
       node-int64: 0.4.0
 
+  buffer-crc32@0.2.13: {}
+
   buffer-from@1.1.2: {}
 
   buffer-xor@1.0.3: {}
+
+  buffer@5.7.1:
+    dependencies:
+      base64-js: 1.5.1
+      ieee754: 1.2.1
 
   buffer@6.0.3:
     dependencies:
@@ -17763,6 +18560,13 @@ snapshots:
 
   component-emitter@1.3.1: {}
 
+  compress-commons@4.1.2:
+    dependencies:
+      buffer-crc32: 0.2.13
+      crc32-stream: 4.0.3
+      normalize-path: 3.0.0
+      readable-stream: 3.6.2
+
   compressible@2.0.18:
     dependencies:
       mime-db: 1.52.0
@@ -17864,6 +18668,13 @@ snapshots:
       path-type: 4.0.0
     optionalDependencies:
       typescript: 5.4.5
+
+  crc-32@1.2.2: {}
+
+  crc32-stream@4.0.3:
+    dependencies:
+      crc-32: 1.2.2
+      readable-stream: 3.6.2
 
   create-ecdh@4.0.4:
     dependencies:
@@ -19396,6 +20207,8 @@ snapshots:
 
   fresh@0.5.2: {}
 
+  fs-constants@1.0.0: {}
+
   fs-extra@10.0.0:
     dependencies:
       graceful-fs: 4.2.11
@@ -20850,6 +21663,10 @@ snapshots:
       picocolors: 1.0.1
       shell-quote: 1.8.1
 
+  lazystream@1.0.1:
+    dependencies:
+      readable-stream: 2.3.8
+
   less-loader@11.1.0(webpack@5.91.0(esbuild@0.14.29)):
     dependencies:
       klona: 2.0.6
@@ -20968,13 +21785,23 @@ snapshots:
 
   lodash.debounce@4.0.8: {}
 
+  lodash.defaults@4.2.0: {}
+
+  lodash.difference@4.5.0: {}
+
+  lodash.flatten@4.4.0: {}
+
   lodash.get@4.4.2: {}
 
   lodash.has@4.5.2: {}
 
+  lodash.isplainobject@4.0.6: {}
+
   lodash.memoize@4.1.2: {}
 
   lodash.merge@4.6.2: {}
+
+  lodash.union@4.6.0: {}
 
   lodash.uniq@4.5.0: {}
 
@@ -22636,6 +23463,8 @@ snapshots:
       forwarded: 0.2.0
       ipaddr.js: 1.9.1
 
+  proxy-from-env@1.1.0: {}
+
   prr@1.0.1: {}
 
   psl@1.9.0: {}
@@ -22963,6 +23792,10 @@ snapshots:
       inherits: 2.0.4
       string_decoder: 1.3.0
       util-deprecate: 1.0.2
+
+  readdir-glob@1.1.3:
+    dependencies:
+      minimatch: 5.1.0
 
   readdirp@3.6.0:
     dependencies:
@@ -23811,6 +24644,14 @@ snapshots:
   tapable@1.1.3: {}
 
   tapable@2.2.1: {}
+
+  tar-stream@2.2.0:
+    dependencies:
+      bl: 4.1.0
+      end-of-stream: 1.4.4
+      fs-constants: 1.0.0
+      inherits: 2.0.4
+      readable-stream: 3.6.2
 
   tcp-port-used@1.0.2:
     dependencies:
@@ -25056,6 +25897,12 @@ snapshots:
       zen-observable: 0.8.15
 
   zen-observable@0.8.15: {}
+
+  zip-stream@4.1.1:
+    dependencies:
+      archiver-utils: 3.0.4
+      compress-commons: 4.1.2
+      readable-stream: 3.6.2
 
   zwitch@1.0.5: {}
 

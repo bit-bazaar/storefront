@@ -1,10 +1,15 @@
 import { ViteReact } from '@bitdev/react.app-types.vite-react';
-import { createRequire } from 'node:module';
+import { Netlify } from '@teambit/cloud-providers.deployers.netlify';
 
-const require = createRequire(import.meta.url);
+const netlifyConfig = {
+  accessToken: process.env.NETLIFY_AUTH_TOKEN!,
+  productionSiteName: 'bit-bazaar-storefront',
+  team: 'teambit',
+};
 
 export default ViteReact.from({
   name: 'storefront',
   ssr: false,
-  viteConfigPath: require.resolve('./vite.config.js'),
+  viteConfigPath: './vite.config.js',
+  deploy: Netlify.deploy(netlifyConfig),
 });

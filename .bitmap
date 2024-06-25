@@ -12,14 +12,14 @@
     "pages/product-gallery-page": {
         "name": "pages/product-gallery-page",
         "scope": "bit-bazaar.storefront",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "storefront/pages/product-gallery-page"
     },
     "storefront": {
         "name": "storefront",
         "scope": "bit-bazaar.storefront",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "mainFile": "index.ts",
         "rootDir": "storefront/storefront"
     },

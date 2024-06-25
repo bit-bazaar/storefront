@@ -78,6 +78,5 @@
     "enableWorkspaceConfigWrite": true
   },
   "bit-bazaar.storefront/storefront": {},
-  "bit-bazaar.storefront/navbar": {},
   "bit-bazaar.storefront/shell": {}
 }

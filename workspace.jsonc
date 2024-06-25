@@ -39,10 +39,7 @@
    **/
   "teambit.generator/generator": {
     "envs": [
-      "bitdev.node/node-env",
-      "bitdev.react/react-env"
-      //  "bitdev.vue/vue-env",
-      //  "bitdev.angular/angular-env"
+      "bit-bazaar.design/dev/react-mui"
     ]
   },
   /**
@@ -55,6 +52,20 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@bit-bazaar/design.actions.button": "^0.0.3",
+        "@bit-bazaar/design.layout.box": "^0.0.2",
+        "@bit-bazaar/design.layout.container": "^0.0.2",
+        "@bit-bazaar/design.layout.grid": "^0.0.3",
+        "@bit-bazaar/design.layout.toolbar": "^0.0.2",
+        "@bit-bazaar/design.surfaces.app-bar": "^0.0.3",
+        "@bit-bazaar/design.surfaces.card": "^0.0.6",
+        "@bit-bazaar/design.theme.theme-provider": "^0.0.2",
+        "@bit-bazaar/design.typography.typography": "^0.0.2",
+        "@bit-bazaar/shell-app.auth.auth-provider": "^0.0.2",
+        "@bit-bazaar/shell-app.navigation.app-bar": "^0.0.3",
+        "@bit-bazaar/shell-app.navigation.mfe-menu": "^0.0.3",
+        "@bit-bazaar/shell-app.pages.homepage": "^0.0.1",
+        "@bit-bazaar/shell-app.types.navigation": "^0.0.2",
         "@bitdev/react.app-types.react-ssr": "^2.0.0",
         "@bitdev/react.app-types.vite-react": "^2.0.1",
         "@bitdev/react.react-env": "^2.0.3",
@@ -62,7 +73,7 @@
         "@emotion/react": "^11.11.4",
         "@emotion/styled": "11.11.5",
         "@mui/icons-material": "5.15.20",
-        "@mui/material": "5.15.20",
+        "@mui/material": "^5.15.20",
         "@mui/styled-engine": "^5.15.14",
         "@mui/styles": "5.15.20",
         "@teambit/cloud-providers.deployers.netlify": "^0.1.26",
@@ -77,6 +88,5 @@
   "teambit.workspace/workspace-config-files": {
     "enableWorkspaceConfigWrite": true
   },
-  "bit-bazaar.storefront/storefront": {},
-  "bit-bazaar.storefront/shell": {}
+  "bit-bazaar.storefront/storefront": {}
 }

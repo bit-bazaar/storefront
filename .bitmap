@@ -9,19 +9,17 @@
  */
 
 {
-    "shell": {
-        "name": "shell",
-        "scope": "",
-        "version": "",
-        "defaultScope": "bit-bazaar.storefront",
+    "pages/product-gallery-page": {
+        "name": "pages/product-gallery-page",
+        "scope": "bit-bazaar.storefront",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "storefront/shell"
+        "rootDir": "storefront/pages/product-gallery-page"
     },
     "storefront": {
         "name": "storefront",
-        "scope": "",
-        "version": "",
-        "defaultScope": "bit-bazaar.storefront",
+        "scope": "bit-bazaar.storefront",
+        "version": "0.0.7",
         "mainFile": "index.ts",
         "rootDir": "storefront/storefront"
     },

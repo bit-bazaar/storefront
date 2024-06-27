@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://bit.dev/reference/workspace/workspace-json
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -38,9 +38,7 @@
    * Explore more dev environments at: https://bit.dev/docs/getting-started/composing/dev-environments
    **/
   "teambit.generator/generator": {
-    "envs": [
-      "bit-bazaar.design/dev/react-mui"
-    ]
+    "envs": ["bit-bazaar.design/dev/react-mui"]
   },
   /**
    * main configuration for component dependency resolution.
@@ -52,6 +50,7 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@bit-bazaar/shell-app.shell-app": "^0.0.25",
         "@bit-bazaar/design.actions.button": "^0.0.3",
         "@bit-bazaar/design.layout.box": "^0.0.2",
         "@bit-bazaar/design.layout.container": "^0.0.2",

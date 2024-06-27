@@ -12,21 +12,21 @@
     "pages/product-gallery-page": {
         "name": "pages/product-gallery-page",
         "scope": "bit-bazaar.storefront",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "storefront/pages/product-gallery-page"
     },
     "storefront": {
         "name": "storefront",
         "scope": "bit-bazaar.storefront",
-        "version": "0.0.11",
+        "version": "0.0.12",
         "mainFile": "index.ts",
         "rootDir": "storefront/storefront"
     },
     "storefront-platform": {
         "name": "storefront-platform",
         "scope": "bit-bazaar.storefront",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "storefront/storefront-platform"
     },

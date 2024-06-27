@@ -1,3 +1,5 @@
+import { Typography } from '@bit-bazaar/design.typography.typography';
+
 export function ProductGalleryPage() {
-  return <h1>Products</h1>;
+  return <Typography variant="h1">Products</Typography>;
 }

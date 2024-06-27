@@ -19,9 +19,16 @@
     "storefront": {
         "name": "storefront",
         "scope": "bit-bazaar.storefront",
-        "version": "0.0.8",
+        "version": "0.0.10",
         "mainFile": "index.ts",
         "rootDir": "storefront/storefront"
+    },
+    "storefront-platform": {
+        "name": "storefront-platform",
+        "scope": "bit-bazaar.storefront",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "storefront/storefront-platform"
     },
     "$schema-version": "17.0.0"
 }

@@ -88,5 +88,6 @@
   "teambit.workspace/workspace-config-files": {
     "enableWorkspaceConfigWrite": true
   },
-  "bit-bazaar.storefront/storefront": {}
+  "bit-bazaar.storefront/storefront": {},
+  "bit-bazaar.storefront/storefront-platform": {}
 }

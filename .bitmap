@@ -12,7 +12,7 @@
     "pages/product-gallery-page": {
         "name": "pages/product-gallery-page",
         "scope": "bit-bazaar.storefront",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "storefront/pages/product-gallery-page"
     },
@@ -27,7 +27,7 @@
     "storefront": {
         "name": "storefront",
         "scope": "bit-bazaar.storefront",
-        "version": "0.0.13",
+        "version": "0.0.14",
         "mainFile": "index.ts",
         "rootDir": "storefront/storefront"
     },

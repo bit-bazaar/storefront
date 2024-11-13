@@ -16,19 +16,20 @@
         "mainFile": "index.ts",
         "rootDir": "storefront/pages/product-gallery-page"
     },
+    "shell-platform": {
+        "name": "shell-platform",
+        "scope": "bit-bazaar.shell-app",
+        "version": "0.0.25",
+        "mainFile": "index.ts",
+        "rootDir": "shell-app/shell-platform",
+        "localOnly": true
+    },
     "storefront": {
         "name": "storefront",
         "scope": "bit-bazaar.storefront",
         "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "storefront/storefront"
-    },
-    "storefront-platform": {
-        "name": "storefront-platform",
-        "scope": "bit-bazaar.storefront",
-        "version": "0.0.5",
-        "mainFile": "index.ts",
-        "rootDir": "storefront/storefront-platform"
     },
     "$schema-version": "17.0.0"
 }
